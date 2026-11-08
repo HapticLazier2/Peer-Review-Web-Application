@@ -83,4 +83,4 @@ As a **malicious user**, I want to **trigger large numbers of notification email
 
 # Mockups
 ## Login Page
-![Login Screen](images/"Login Mockup.drawio.png")
+![Login Screen](images/Login-Mockup.drawio.png)
