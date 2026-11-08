@@ -80,3 +80,7 @@ As a **dishonest student**, I want to **view another student's submission or fee
 As a **malicious user**, I want to **trigger large numbers of notification emails** so I can **spam other users or get the server's email blocked**.
   - Emails are only sent by the server when a review is submitted, never on direct user request.
   - Each user receives at most one email per submitted review.
+
+# Mockups
+## Login Page
+![Login Screen](images/"Login Mockup.drawio.png")
