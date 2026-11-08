@@ -58,3 +58,25 @@ As an **Instructor**, I want **reviewers to be assigned to submissions automatic
 As an **Instructor**, I want to **view all reviews for an assignment** so I can **grade reviewers on the quality of their feedback**.
   - The instructor sees each submission with all of its reviews and the reviewer names.
   - The instructor can enter a grade for each review.
+    
+# Mis-User Stories
+
+As a **malicious outsider**, I want to **guess passwords on the login page** so I can **take over a student or instructor account**.
+  - After 5 failed login attempts, the account is locked for 15 minutes.
+  - Passwords are stored hashed and salted, never in plain text.
+
+As a **retaliating student**, I want to **find out who reviewed my work** so I can **harass a reviewer who gave me harsh feedback**.
+  - Reviewer names, usernames, and IDs are never included in any page or response sent to the author.
+  - Only the instructor can see who reviewed each submission.
+
+As a **lazy reviewer**, I want to **submit empty or copy-pasted reviews** so I can **get credit without doing the work**.
+  - A review cannot be submitted without at least one comment attached to a highlighted section.
+  - The instructor can see every comment before grading the review.
+
+As a **dishonest student**, I want to **view another student's submission or feedback by changing the ID in the URL** so I can **copy their work**.
+  - Every request for a submission or review checks that the logged-in user is the author, an assigned reviewer, or the instructor.
+  - Unauthorized requests return a "403 Forbidden" error and show no content.
+
+As a **malicious user**, I want to **trigger large numbers of notification emails** so I can **spam other users or get the server's email blocked**.
+  - Emails are only sent by the server when a review is submitted, never on direct user request.
+  - Each user receives at most one email per submitted review.
