@@ -96,4 +96,10 @@ As a **malicious user**, I want to **trigger large numbers of notification email
 
 # Architecture
 ## Context Diagram
+![Context Diagram](images/System-Context-C4-Level-1.drawio.png)
 
+## Container Diagram
+![Container Diagram](images/System-Context-C4-Level-2.drawio.png)
+
+## Component Diagram
+![Component Diagram](images/System-Context-C4-Level-3.drawio.png)
