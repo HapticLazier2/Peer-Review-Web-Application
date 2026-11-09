@@ -9,3 +9,5 @@ It works in three steps:
  - **A reviewer, another student, completes the review,** highlighting issues directly in the work and replying with comments.
 
 Overall, PeerProof creates a more secure pipeline for instructors to trust their students' reviews. Student reviewers objectively review and give honest feedback, and both the reviewer and the author learn more overall. While it will not solve the issue of LLM use, it will make the use of it more difficult overall.
+
+**Disclosure**: I waited until last minute to do the Diagrams, the code was copied from a local gitea repository I use. I have been working on the project for a few days now.
