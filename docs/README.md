@@ -90,3 +90,6 @@ As a **malicious user**, I want to **trigger large numbers of notification email
 
 ## Reviewing Assignment
 ![Review dashboard](images/Review.drawio(1).png)
+
+## Instructor Assignment Creation
+![Instructor Assignment Creation](images/Instructor-Assignment-Creation.drawio.png)
