@@ -84,7 +84,6 @@ class Review(models.Model):
     )
     status = models.CharField(max_length=20, choices=STATUS_CHOICES, default=NOT_STARTED)
     submitted_at = models.DateTimeField(null=True, blank=True)
-    grade = models.PositiveSmallIntegerField(null=True, blank=True)
 
     class Meta:
         unique_together = [("submission", "reviewer")]
