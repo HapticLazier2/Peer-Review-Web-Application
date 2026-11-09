@@ -60,12 +60,6 @@ Then try the API in your browser. Each page has a Content box at the bottom for 
 | /api/assignments/ | List assignments, or POST to create one (instructors only) |
 | /api/auth/logout/ | Log out (POST) |
 
-Run the test suite:
-
-```bash
-python manage.py test core
-```
-
 ## AI Usage
 AI was used in helping me get through alot of errors and logical flaws with the code. It was used to review the diagrams and comment on fixes for these problems
 It was not used in the generation of code outside of fixing errors which happened in most files. 
