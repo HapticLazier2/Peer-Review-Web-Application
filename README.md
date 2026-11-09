@@ -1,6 +1,6 @@
 # PeerProof
 
-PeerProof solves a recurring problem in classrooms: giving students a way to peer review each other's work, comment, and highlight issues, without handing the job off to an AI tool. When reviews are written by an LLM, students stop learning from the process and instructors can no longer trust the feedback. PeerProof brings that trust back.
+PeerProof solves a recurring problem in classrooms: giving students a way to peer-review each other's work, comment, and highlight issues, without handing the job off to an AI tool. When reviews are written by an LLM, students stop learning from the process and instructors can no longer trust the feedback. PeerProof brings that trust back.
 
 It works in three steps:
 
