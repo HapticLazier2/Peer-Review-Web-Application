@@ -46,11 +46,11 @@ Start the API from the `api` folder:
 python manage.py runserver
 ```
 
-1. Open **http://127.0.0.1:8000/admin/** and log in with your superuser.
-2. Under **Users**, add an instructor (set **Role** to Instructor) and a few students.
-3. Under **Courses**, create a course, choose the instructor, and select the students.
+1. Open http://127.0.0.1:8000/admin/ and log in with your superuser.
+2. Under Users, add an instructor (set Role to Instructor) and a few students.
+3. Under *Courses, create a course, choose the instructor, and select the students.
 
-Then try the API in your browser. Each page has a **Content** box at the bottom for sending requests:
+Then try the API in your browser. Each page has a Content box at the bottom for sending requests:
 
 | Endpoint | What it does |
 |---|---|
@@ -70,4 +70,5 @@ python manage.py test core
 AI was used in helping me get through alot of errors and logical flaws with the code. It was used to review the diagrams and comment on fixes for these problems
 It was not used in the generation of code outside of fixing errors which happened in most files. 
 
-**Disclosure**: I waited until last minute to do the Diagrams, the code was copied from a local gitea repository I use. I have been working on the project for a few weeks now.
+### Gitea Disclosure
+I waited until last minute to do the Diagrams, the code was copied from a local gitea repository I use. I have been working on the project for a few weeks now.
