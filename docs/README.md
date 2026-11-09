@@ -93,3 +93,7 @@ As a **malicious user**, I want to **trigger large numbers of notification email
 
 ## Instructor Assignment Creation
 ![Instructor Assignment Creation](images/Instructor-Assignment-Creation.drawio.png)
+
+# Architecture
+## Context Diagram
+
